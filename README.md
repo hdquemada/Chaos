@@ -18,7 +18,7 @@ This is not a library, but rather a collection of standalone scripts! As such, t
 1. Download this repository and unzip it or run `git clone https://github.com/jonnyhyman/Chaos.git`
 2. Change directory into the folder where you extracted files `cd ~/route/to/your/folder`
 3. Run the program you're interested in, like `python logistic_interactive.py`
-4. To make changes to the code, install a text editor like [Atom](https://atom.io) and then open the file you want to edit. If this is your first python project, GO FOT IT, but also it might not be the easiest to get your head wrapped around (I use a lot of nuanced python functionality).
+4. To make changes to the code, install a text editor like [Atom](https://atom.io) and then open the file you want to edit. If this is your first python project, GO FOR IT, but also it might not be the easiest to get your head wrapped around (I use a lot of nuanced python functionality).
 
 #### If you run into problems
 0. Google the problem you're running into
@@ -32,7 +32,7 @@ This is not a library, but rather a collection of standalone scripts! As such, t
 
 #### Additional Requirements
 - PyQt5 : `pip install pyqt5`
-- PyQtGraph : `pip install pyqtgraph`
+- PyQtGraph : `pip install pyqtgraph` (Python 3.6, 3.7) or `pip install pyqtgraph==0.11.0rc0` (Python 3.8)
 
 This visualization creates a cobweb plot, time series graph, and bifurcation plot for visualizing the logistic map. The font pictured is "Avenir Next" which is licensed as part of macOS. Other OSes will see their default font.
 
